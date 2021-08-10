@@ -18,6 +18,6 @@ def newton_interplation(vect_x,vect_y,degree):
         vect_y=vect
     final_function_without_error=f #--->le polynome d’interpolation dans la base de Newton
     plot_function=plot(final_function_without_error)
-    print(plot_function) #
-    print(final_function_without_error) #----> plot 
+    print(plot_function) #----> plot 
+    print(final_function_without_error) #
 newton_interplation([0,2,4],[1,5,17],2)
